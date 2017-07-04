@@ -29,7 +29,7 @@ module.exports = function(env) {
             ]
         },
 
-        devtool: 'cheap-eval-source-map',
+        devtool: 'eval-source-map',
 
         resolve: {
             extensions: ['.js', '.jsx', '.json', '*']
